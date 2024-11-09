@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/image/Liberty.jpg'); /* Remplace par une vraie image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.home-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.join-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.join-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.image-gallery {
+    display: flex;  
+    justify-content: center; /* Centre les images horizontalement */
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.image-gallery img {
+    max-width: 200px; /* Largeur maximale de chaque image */
+    margin: 10px; /* Espacement entre les images */
+    border: 2px solid #fff; /* Bordure blanche autour des images */
+    border-radius: 10px; /* Coins arrondis */
+}
+.texture-gallery {
+    display: flex;
+    justify-content: center; /* Centre les textures horizontalement */
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.texture-item {
+    text-align: center; /* Centre le texte sous chaque image */
+    margin: 10px; /* Espacement autour de chaque texture */
+}
+
+.texture-item img {
+    max-width: 200px; /* Largeur maximale de chaque texture */
+    border: 2px solid #fff; /* Bordure blanche autour des textures */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+.banner {
+    width: 100%;  /* Ajuste la largeur pour qu'elle prenne toute la largeur de la page */
+    height: auto; /* Maintient le ratio de l'image */
+    margin: 20px 0; /* Ajoute une marge au-dessus et au-dessous de la bannière */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.home-section, .rules-section {
+    padding: 20px;
+}
+
+.join-button, .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.join-button:hover, .back-button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.contact-section {
+    padding: 20px;
+}
+
+.contact-section form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 10px 15px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background: #0056b3;
+}
+
+.shop-section {
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin: 10px 0 5px;
+}
+
+.product-card p {
+    margin: 5px 0;
+}
+
+.product-card button {
+    padding: 10px 15px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background: #0056b3;
+}

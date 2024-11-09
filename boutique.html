@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique - Serveur ERLC RP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Boutique</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="regle.html">Règles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="texture.html">Texture serveur</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="shop-section">
+            <h2>Nos Produits</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="image/vip.jpg" alt="Produit 1">
+                    <h3>vip </h3>
+                    <p>Description courte du produit 1.</p>
+                    <p>Prix: 10€</p>
+                    <!-- Lien vers PayPal pour le produit 1 -->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="your_paypal_email@example.com">
+                        <input type="hidden" name="item_name" value="Produit 1">
+                        <input type="hidden" name="amount" value="10">
+                        <input type="hidden" name="currency_code" value="EUR">
+                        <button type="submit">Acheter</button>
+                    </form>
+                </div>
+                <div class="product-card">
+                    <img src="image/premium.jpg" alt="Produit 2">
+                    <h3>premium</h3>
+                    <p>Description courte du produit 2.</p>
+                    <p>Prix: 20€</p>
+                    <!-- Lien vers PayPal pour le produit 2 -->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="your_paypal_email@example.com">
+                        <input type="hidden" name="item_name" value="Produit 2">
+                        <input type="hidden" name="amount" value="20">
+                        <input type="hidden" name="currency_code" value="EUR">
+                        <button type="submit">Acheter</button>
+                    </form>
+                </div>
+                <div class="product-card">
+                    <img src="path/to/image3.jpg" alt="Produit 3">
+                    <h3>Produit 3</h3>
+                    <p>Description courte du produit 3.</p>
+                    <p>Prix: 30€</p>
+                    <!-- Lien vers PayPal pour le produit 3 -->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="your_paypal_email@example.com">
+                        <input type="hidden" name="item_name" value="Produit 3">
+                        <input type="hidden" name="amount" value="30">
+                        <input type="hidden" name="currency_code" value="EUR">
+                        <button type="submit">Acheter</button>
+                    </form>
+                </div>
+                <div class="product-card">
+                    <img src="path/to/image4.jpg" alt="Produit 4">
+                    <h3>Produit 4</h3>
+                    <p>Description courte du produit 4.</p>
+                    <p>Prix: 40€</p>
+                    <!-- Lien vers PayPal pour le produit 4 -->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="your_paypal_email@example.com">
+                        <input type="hidden" name="item_name" value="Produit 4">
+                        <input type="hidden" name="amount" value="40">
+                        <input type="hidden" name="currency_code" value="EUR">
+                        <button type="submit">Acheter</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Serveur ERLC RP. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
